@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Citas</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylecalendar.css">
+	<script src="jquery-1.9.0.min.js"></script>
+	<script src="jquery.liMarquee.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="simplecalendar.js"></script>
+</head>
+
+<script>
+$(window).load(function(){
+	$('.str3').liMarquee();
+})
+
+
+</script> 
+<style>
+	.str3 .str_item {
+		font-size:0;
+		line-height:0
+	}
+	.str3 img { opacity:0.8}
+	.str3 img:hover { opacity:1}
+	.str3.str_wrap.str_active {
+		background:#fff;
+	}
+</style>
+<body>
+
+<div class="row">
+
+	<div class="col-xs-4 "></div>
+
+	<div class="col-xs-4 ">
+		
+	 <div class="form-group ">
+      <label for="select" class="control-label"><h6><b>Elige tu marca</b></h6></label>
+      <div class="">
+        <select class="form-control" id="select">
+          <option>MAZDA</option>
+          <option>RENAULT</option>
+          <option>CORVETTE</option>
+          <option>TOYOTA</option>
+          <option>MITSUBICHI</option>
+        </select>
+       </div>
+   </div>
+	
+	</div>
+	<div class="col-xs-4 "></div>
+</div>
+
+
+
+<br>
+<br>
+
+<div class="conteiner">
+
+<fieldset>
+    <legend></legend>		
+    <div class="str3 str_wrap">
+        <a href="#"><img src="1.jpg"></a>
+        <a href="#"><img src="2.jpg"></a>
+        <a href="#"><img src="3.jpg"></a>
+        <a href="#"><img src="http://www.listadecarros.com/wp-content/uploads/2011/03/Carro-el%C3%A9ctrico-Twizy-3-150x150.jpg"></a>
+        <a href="#"><img src="http://imagenesdeautosdeportivos.com/wp-content/uploads/2015/06/Bajar-Imagenes-De-Carros-De-Carreras-1-150x150.jpg"></a>
+        <a href="#"><img src="http://clubr4colombia.com/images/news/12/el_carro_colombiano.jpg"></a>
+        <a href="#"><img src="http://www.listadecarros.com/wp-content/uploads/2012/08/Saleen-S7-Twin-Turbo-3-150x150.jpg"></a>
+        <a href="#"><img src="http://imagenesdeautosdeportivos.com/wp-content/uploads/2015/06/Im%C3%A1genes-Super-Lind%C3%ADsimos-De-Carros-Deportivos-2-150x150.jpg"></a>
+        <a href="#"><img src="http://www.listadecarros.com/wp-content/uploads/2010/04/Carro-El%C3%A9ctrico-Magna-Steyr-Mila-EV-4jpg-150x150.jpg"></a>
+        <a href="#"><img src="http://www.posteos.com/wp-content/uploads/2014/09/nuevos-modelos-autos-2015-carros-mercado-americano-1-150x150.jpg"></a>
+        <a href="#"><img src="https://lh3.googleusercontent.com/-sG3LfP53tfI/T3xIWS7FHeI/AAAAAAAAAAk/oXSiazHp98A/s150-c/photo.jpg"></a>
+        <a href="#"><img src="http://revistadiners.com.co/wp-content/uploads/2015/05/carros_800x6691-150x150.jpg"></a>
+        <a href="#"><img src="http://www.posteos.com/wp-content/uploads/2015/02/autos-carros-clasicos-fotos-fondos-pantalla-cars-wallpapers-4-150x150.jpg"></a>
+        <a href="#"><img src="http://fotosdecarrosdeportivos.com/wp-content/uploads/2015/06/Fotos-De-Carros-Del-Futuro-1-150x150.jpg"></a>
+        <a href="#"><img src="http://www.posteos.com/wp-content/uploads/2015/03/Ferrari-carros-autos-antiguos-clasicos-fotos-old-classic-cars-desktop-wallpapers-8-150x150.jpg"></a>
+        <a href="#"><img src="http://www.posteos.com/wp-content/uploads/2015/04/Alfa-Romeo-4C-Spider-fotos-autos-carros-deportivos-22-150x150.jpg"></a>
+        <a href="#"><img src="http://www.listadecarros.com/wp-content/uploads/2010/08/Carro-el%C3%A9ctrico-Twike-1-150x150.jpg"></a>
+        <a href="#"><img src="http://fotosdecarrosdeportivos.com/wp-content/uploads/2015/05/Carros-%C3%9Altimo-Modelo-Chevrolet-1-150x150.jpg"></a>
+        <a href="#"><img src="http://fotosdecarrosdeportivos.com/wp-content/uploads/2015/07/Imagenes-de-Carros-y-Motos-Deportivos-1-150x150.jpg"></a>
+    </div>
+</fieldset> 
+
+
+<div class="row">
+	
+	<div class="col-xs-6">
+		
+<div class="calendar-container" id="bajar">
+			<div class="calendar">
+				<header>
+					<h2 class="month"></h2>
+					<a class="btn-prev fontawesome-angle-left" href="#"></a>
+					<a class="btn-next fontawesome-angle-right" href="#"></a>
+				</header>
+				<table>
+					<thead class="event-days">
+						<tr></tr>
+					</thead>
+					<tbody class="event-calendar">
+						<tr class="1"></tr>
+						<tr class="2"></tr>
+						<tr class="3"></tr>
+						<tr class="4"></tr>
+						<tr class="5"></tr>
+					</tbody>
+				</table> 
+				<div class="list">
+					<div class="day-event" date-month="3" date-day="4">
+						<a href="#" class="close fontawesome-remove"></a>
+						<h2 class="title">Lorem ipsum 1</h2>
+						<p class="date">2014-12-16</p>
+						<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+						<label>
+						    <span>Read more!</span>
+						</label>
+					</div>
+					<div class="day-event" date-month="3" date-day="13">
+						<a href="#" class="close fontawesome-remove"></a>
+						<h2 class="title">Lorem ipsum 2</h2>
+						<p class="date">2014-12-16</p>
+						<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+						<label>
+						    <span>Read more!</span>
+						</label>
+					</div>
+					<div class="day-event" date-month="3" date-day="14">
+						<a href="#" class="close fontawesome-remove"></a>
+						<h2 class="title">Lorem ipsum 3</h2>
+						<p class="date">2014-12-16</p>
+						<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+						<label>
+						    <span>Read more!</span>
+						</label>
+					</div>
+					<div class="day-event" date-month="3" date-day="16">
+						<a href="#" class="close fontawesome-remove"></a>
+						<h2 class="title">Lorem ipsum 4</h2>
+						<p class="date">2014-12-16</p>
+						<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+						<label>
+						    <span>Read more!</span>
+						</label>
+					</div>
+					<div class="day-event" date-month="3" date-day="24">
+						<a href="#" class="close fontawesome-remove"></a>
+						<h2 class="title">Lorem ipsum 5</h2>
+						<p class="date">2014-12-16</p>
+						<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+						<label>
+						    <span>Read more!</span>
+						</label>
+					</div>
+					<div class="day-event" date-month="3" date-day="31">
+						<a href="#" class="close fontawesome-remove"></a>
+						<h2 class="title">Lorem ipsum 6</h2>
+						<p class="date">2014-12-31</p>
+						<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+						<label>
+						    <span>Read more!</span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	
+
+	</div>
+	
+	<div class="col-xs-6">
+		<div class="">
+	<div class="">
+        <div class="span12">
+    		<table class="table table-condensed table-hover">
+    			<thead>
+    				<tr>
+    					<th> </th>
+    					<th>General Motors Celta</th>
+    					<th>Chevrolet Classic</th>
+    					
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td>Modelo</td>
+    					<td>562</td>
+    					<td>854</td>
+    					
+    				</tr>
+    				<tr>
+    					<td>Combustible</td>
+    					<td>25</td>
+    					<td>50</td>
+    					
+    				</tr>
+    				<tr>
+    					<td>Recorrido</td>
+    					<td>1</td>
+    					<td>2</td>
+    					
+    				</tr>
+    				<tr>
+    					<td>Año</td>
+    					<td>7878</td>
+    					<td>1234</td>
+    					
+    				</tr>
+    				<tr>
+    					<td>Transmisión</td>
+    					<td>200</td>
+    					<td>400</td>
+    					
+    				</tr>
+    				<tr>
+    					<td> </td>
+    					<td> </td>
+    					<td> </td>
+    					
+    				</tr>
+    				<tr>
+    					<td>Airbag</td>
+    					<td>$16.95/Mes</td>
+    					<td>$32.95/Mes</td>
+    					
+    				</tr>
+    				<tr>
+    					<td>Motor</td>
+    					<td>$16.44/Mes</td>
+    					<td>$31.96/Mes</td>
+    					
+    				</tr>
+    				<tr>
+    					<td>Asientos</td>
+    					<td>$15.26/Mes</td>
+    					<td>$29.66/Mes</td>
+    					
+    				</tr>
+    				<tr>
+    					<td> </td>
+    					<td><a class="btn btn-default" href="#"> <img src="money.png">  <b>Orden</b> »</a></td>
+    					<td><a class="btn btn-default" href="#"> <img src="money.png">  <b>Valor</b> »</a></td>
+    					
+    				</tr>
+    			</tbody>
+    		</table>
+    	</div>
+	</div>
+</div>
+
+
+
+	</div>
+
+</div>
+
+
+
+<div class="autor">
+    <a class="logoMasscode" target="_blank">
+    	<span class="logoMass">Citas</span class="calendar">Autos<span class="logoMass">APP</span>
+    </a>
+</div>
+	
+</body>
+</html>
